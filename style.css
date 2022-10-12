@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+
+  color: white;
+}
+.contener {
+  background-image: url("begraund.png");
+  height: 90vh;
+  display: flex;
+}
+.wrapper {
+  width: 1365px;
+  height: 600px;
+  margin: auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.sp1 {
+  font-size: 30px;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.knopki {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+.bot1 {
+  font-size: 25px;
+  text-decoration: none;
+}
+.bott1 {
+  font-size: 25px;
+
+  text-decoration: none;
+}
+
+.support {
+  font-size: 25px;
+  text-decoration: none;
+  border: 2px solid white;
+padding-right:3px ;
+
+padding-left: 3px;
+
+  border-radius: 10px;
+}
+.bot1:hover {
+  font-size: 25px;
+  text-decoration: none;
+  color: #25a989;
+}
+.bott1:hover {
+  font-size: 25px;
+  text-decoration: none;
+  color: #28bd95;
+}
+
+.support:hover {
+  font-size: 25px;
+  text-decoration: none;
+  border: 2px solid #28bd95;
+ 
+  border-radius: 10px;
+  color: #28bd95;
+}
+
+.bigtext {
+  display: flex;
+  align-items: center;
+  
+}
+h1 {
+  text-align: center;
+  font-size: 140px;
+  margin-top: 100px;
+}
+.text2 {
+  font-size: 60px;
+  text-align: center;
+   font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  margin-bottom: 40px;
+}
+.i {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+
+.saas {
+  color: #29f7bd;
+  font-weight: 200;
+}
+.bottom {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+.bottom1 {
+  background-color: #29f7bd;
+  border-radius: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+}
+.bottom1:hover {
+  background-color: #4d3ee1;
+  border-radius: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+}
+.bottom2 {
+  background-color: #4d3ee1;
+  border-radius: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.bottom2:hover {
+  background-color: #29f7bd;
+  border-radius: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  font-size: 30px;
+}
